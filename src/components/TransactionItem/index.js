@@ -17,7 +17,7 @@ const TransactionItem = props => {
         <button
           className="delete-button"
           type="button"
-          onclassName={onDeleteTransaction}
+          onClick={onDeleteTransaction}
           data-testid="delete"
         >
           <img
